@@ -1,0 +1,11 @@
+Model Information:
+* title:	2018 Dodge Challenger SRT Hellcat
+* source:	https://sketchfab.com/3d-models/2018-dodge-challenger-srt-hellcat-e31b4430d9934f61b212f55f194c9ef7
+* author:	Emmanual Robinson, Jr. (https://sketchfab.com/3001105)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2018 Dodge Challenger SRT Hellcat" (https://sketchfab.com/3d-models/2018-dodge-challenger-srt-hellcat-e31b4430d9934f61b212f55f194c9ef7) by Emmanual Robinson, Jr. (https://sketchfab.com/3001105) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,116 @@
+import { GroupProps } from '@react-three/fiber'
+import { GLTF } from 'three/examples/jsm/loaders/GLTFLoader'
+
+export interface DodgeChallengerProps {
+  groupProps?: GroupProps
+}
+
+export type GLTFResult = GLTF & {
+  nodes: {
+    FBXASC04977025_black_001: THREE.SkinnedMesh
+    FBXASC04977025_black_001_1: THREE.SkinnedMesh
+    FBXASC04977025_black_001_2: THREE.SkinnedMesh
+    FBXASC04977025_black_001_3: THREE.SkinnedMesh
+    FBXASC04977025_yellow: THREE.SkinnedMesh
+    FBXASC04977025_mattemetal_001: THREE.SkinnedMesh
+    FBXASC04977025_tire_001: THREE.SkinnedMesh
+    FBXASC04977025_darkglass: THREE.SkinnedMesh
+    FBXASC04977025_black_001_4: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_1: THREE.SkinnedMesh
+    FBXASC04977025_mattemetal_001_1: THREE.SkinnedMesh
+    FBXASC04977025_lightglass_001: THREE.SkinnedMesh
+    FBXASC04977025_black_001_5: THREE.SkinnedMesh
+    FBXASC04977025_brakedisk_001: THREE.SkinnedMesh
+    FBXASC04977025_red_001: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001: THREE.SkinnedMesh
+    FBXASC04977025_rim_second_001: THREE.SkinnedMesh
+    FBXASC04977025_red_001_1: THREE.SkinnedMesh
+    FBXASC04977025_rim_second_001_1: THREE.SkinnedMesh
+    FBXASC04977025_brakedisk_001_1: THREE.SkinnedMesh
+    FBXASC04977025_tire_001_1: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_2: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_3: THREE.SkinnedMesh
+    FBXASC04977025_brakedisk_001_2: THREE.SkinnedMesh
+    FBXASC04977025_tire_001_2: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_4: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_5: THREE.SkinnedMesh
+    FBXASC04977025_rim_second_001_2: THREE.SkinnedMesh
+    FBXASC04977025_brakedisk_001_3: THREE.SkinnedMesh
+    FBXASC04977025_tire_001_3: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_6: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_7: THREE.SkinnedMesh
+    FBXASC04977025_rim_second_001_3: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_second_001: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_1: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_2: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_8: THREE.SkinnedMesh
+    FBXASC04977025_black_001_6: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_3: THREE.SkinnedMesh
+    FBXASC04977025_red_001_2: THREE.SkinnedMesh
+    FBXASC04977025_interior_001: THREE.SkinnedMesh
+    FBXASC04977025_red_001_3: THREE.SkinnedMesh
+    FBXASC04977025_red_001_4: THREE.SkinnedMesh
+    FBXASC04977025_brakedisk_001_4: THREE.SkinnedMesh
+    FBXASC04977025_interior_001_1: THREE.SkinnedMesh
+    FBXASC04977025_tire_001_4: THREE.SkinnedMesh
+    FBXASC04977025_black_001_7: THREE.SkinnedMesh
+    FBXASC04977025_interior_001_2: THREE.SkinnedMesh
+    FBXASC04977025_interior_001_3: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_4: THREE.SkinnedMesh
+    FBXASC04977025_interior_001_4: THREE.SkinnedMesh
+    FBXASC04977025_black_001_8: THREE.SkinnedMesh
+    FBXASC04977025_black_001_9: THREE.SkinnedMesh
+    FBXASC04977025_mattemetal_001_2: THREE.SkinnedMesh
+    FBXASC04977025_black_001_10: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_9: THREE.SkinnedMesh
+    FBXASC04977025_clearglass_001: THREE.SkinnedMesh
+    FBXASC04977025_redglass_001: THREE.SkinnedMesh
+    FBXASC04977025_clearglass_001_1: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_10: THREE.SkinnedMesh
+    FBXASC04977025_black_001_11: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_11: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_second_001_1: THREE.SkinnedMesh
+    FBXASC04977025_black_001_12: THREE.SkinnedMesh
+    FBXASC04977025_black_001_13: THREE.SkinnedMesh
+    FBXASC04977025_black_001_14: THREE.SkinnedMesh
+    FBXASC04977025_black_001_15: THREE.SkinnedMesh
+    FBXASC04977025_black_001_16: THREE.SkinnedMesh
+    FBXASC04977025_black_001_17: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_12: THREE.SkinnedMesh
+    FBXASC04977025_lightglass_001_1: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_13: THREE.SkinnedMesh
+    FBXASC04977025_orangeglass_001: THREE.SkinnedMesh
+    FBXASC04977025_black_001_18: THREE.SkinnedMesh
+    FBXASC04977025_black_001_19: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_14: THREE.SkinnedMesh
+    FBXASC04977025_redglass_001_1: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_15: THREE.SkinnedMesh
+    FBXASC04977025_redglass_001_2: THREE.SkinnedMesh
+    FBXASC04977025_black_001_20: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_5: THREE.SkinnedMesh
+    FBXASC04977025_black_001_21: THREE.SkinnedMesh
+    FBXASC04977025_black_001_22: THREE.SkinnedMesh
+    FBXASC04977025_black_001_23: THREE.SkinnedMesh
+    FBXASC04977025_mirror_001: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_16: THREE.SkinnedMesh
+    FBXASC04977025_black_001_24: THREE.SkinnedMesh
+    FBXASC04977025_windowglass_001: THREE.SkinnedMesh
+    FBXASC04977025_black_001_25: THREE.SkinnedMesh
+    FBXASC04977025_windowglass_001_1: THREE.SkinnedMesh
+    FBXASC04977025_clearglass_001_2: THREE.SkinnedMesh
+    FBXASC04977025_clearglass_001_3: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_17: THREE.SkinnedMesh
+    FBXASC04977025_chrome_001_18: THREE.SkinnedMesh
+    FBXASC04977025_clearglass_001_4: THREE.SkinnedMesh
+    FBXASC04977025_black_001_26: THREE.SkinnedMesh
+    FBXASC04977025_windowglass_001_2: THREE.SkinnedMesh
+    FBXASC04977025_carpaint_001_6: THREE.SkinnedMesh
+  }
+  materials: {
+    FBXASC04977025_yellow: THREE.MeshStandardMaterial
+    FBXASC04977025_darkglass: THREE.MeshStandardMaterial
+    FBXASC04977025_mirror_001: THREE.MeshStandardMaterial
+    FBXASC04977025_orangeglass_001: THREE.MeshStandardMaterial
+  }
+}
